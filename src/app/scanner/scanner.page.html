@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Leitor
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-card-title>Leitor</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Posicione a câmera sobre o produto.</p>
+      <video #videoRef id="video" class="video" autoplay="" playsinline="" width="600" height="500"></video>
+      <canvas #canvasRef class="image" width="600" height="500"></canvas>
+    </ion-card-content>
+    <!-- <ion-img src="/assets/images/scanner.png"></ion-img> -->
+  </ion-card>
+</ion-content>

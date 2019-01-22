@@ -1,0 +1,7 @@
+{
+  "name": "br.com.drogaraia",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
